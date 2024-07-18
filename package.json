@@ -1,0 +1,33 @@
+{
+  "name": "awesomelibrary",
+  "version": "1.0.0",
+  "description": "This is your library of your favorite books",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karrrida/AwesomeLibrary.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javaScript",
+    "es6",
+    "postgres"
+  ],
+  "author": "Pavel Oreshin <paul.oreshin@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karrrida/AwesomeLibrary/issues"
+  },
+  "homepage": "https://github.com/Karrrida/AwesomeLibrary#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0",
+    "pino": "^9.3.1"
+  }
+}
